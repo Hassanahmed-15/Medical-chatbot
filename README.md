@@ -30,11 +30,6 @@ This project is an AI-powered medical assistant built with Flask, Pinecone, and 
 ---
 
 ## **Dependencies**
-### **System Requirements**
-- Python 3.8+
-- Pinecone account (for vector database)
-- Minimum 4GB RAM
-
 ### **Core Libraries**
 - Flask (web framework)
 - LangChain (LLM orchestration)
