@@ -2,33 +2,51 @@
 
 ## Overview
 
-The **Medical Chatbot** is an AI-powered virtual assistant built using **Flask**, **Pinecone**, and **LangChain**. This chatbot answers medical-related queries by leveraging a **Large Language Model (LLM)** and vector databases for accurate responses. The backend is powered by **Pinecone** for vector storage and **LangChain** for the model and retrieval chain, while the frontend provides a simple and interactive user interface for seamless communication.
+Welcome to the **Medical Chatbot**! This project is an AI-powered virtual assistant designed to answer medical queries. The chatbot utilizes **Flask**, **Pinecone**, and **LangChain** to provide real-time medical information. With a sleek and interactive frontend, it seamlessly connects to a powerful backend that retrieves and processes medical data.
+
+The chatbot is built using state-of-the-art technology:
+
+- **Pinecone**: For fast and efficient vector search.
+- **LangChain**: For chaining models and managing the flow of data.
+- **Flask**: To serve the web application.
+- **HuggingFace**: To generate embeddings for understanding user queries.
+- **LLaMA-2**: A pre-trained language model that powers the medical chatbot’s responses.
+
+---
 
 ## Features
 
-- **Real-time interaction**: Instantly responds to medical queries.
-- **Backend integration** with **Pinecone** for efficient vector storage and retrieval of medical data.
-- **Customizable UI**: Built with modern frontend technologies, including **HTML**, **CSS**, and **JavaScript**.
-- **Natural Language Understanding**: Uses a **pre-trained LLaMA-2 model** for understanding and generating medical responses.
-- **AJAX-powered** interactions for a smoother user experience.
-- **Easy setup** with minimal dependencies.
+- **Real-time Interaction**: Instant response to medical queries.
+- **Efficient Backend Integration**: Uses **Pinecone** for vector storage and retrieval, ensuring quick answers.
+- **Customizable UI**: Built using **HTML**, **CSS**, and **JavaScript** for an engaging and modern interface.
+- **Natural Language Understanding**: Leverages **LLaMA-2** for understanding medical queries and generating relevant responses.
+- **AJAX-powered** interactions: Smooth, fast, and without page reloads.
+- **Easy Setup**: Simple to install and run with minimal dependencies.
+
+---
 
 ## Prerequisites
 
-Before setting up the project, ensure that you have the following installed:
+To run this project, ensure that you have the following installed:
 
-- **Python** (preferably version 3.8+)
+- **Python** (preferably version 3.8 or higher)
 - **Pip** (Python package installer)
-- **Flask** for the web framework
-- **Pinecone** for vector database integration
-- **LangChain** for chaining AI models and embedding vectors
-- **HuggingFace API** (for embeddings)
+
+Additionally, you will need these libraries:
+
+- **Flask**: The web framework to run the backend.
+- **Pinecone**: For storing and searching vectors.
+- **LangChain**: To chain models and manage the conversation flow.
+- **HuggingFace**: For embeddings to understand queries.
+- **CTransformers**: To run the LLaMA-2 model.
+
+---
 
 ## Installation
 
-### Clone the Repository
+### 1. Clone the Repository
 
-First, clone the repository to your local machine:
+Start by cloning the repository to your local machine:
 
 ```bash
 git clone https://github.com/your-username/Medical-chatbot.git
