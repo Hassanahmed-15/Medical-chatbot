@@ -3,7 +3,7 @@
 ## **Overview**
 This project is an AI-powered medical assistant built with Flask, Pinecone, and LangChain. It provides instant responses to health-related questions, including symptoms analysis, treatment information, and general medical advice using the LLaMA-2 language model.
 
-![Medical Chatbot](assets/chatbot.png)
+![Medical Chatbot](WhatsApp Image 2025-07-06 at 16.00.59_32c27c84.jpg)
 
 ---
 
