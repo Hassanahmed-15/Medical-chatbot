@@ -1,38 +1,50 @@
-# Medical Chatbot
+# **Medical Chatbot**
 
-## What is it?
-
-The Medical Chatbot is an AI assistant that helps answer medical questions. It's built with Flask, Pinecone, and LangChain. You can ask it anything related to health, symptoms, treatments, or even advice. The bot responds instantly using a trained language model.
-
-## What's Inside?
-
-- **Flask**: Used to run the web app  
-- **Pinecone**: Stores the data and helps retrieve answers fast  
-- **LangChain**: Chains everything together (so the bot can understand your questions and generate answers)  
-- **LLaMA-2 model**: Provides relevant responses  
+## **Overview**
+This project is an AI-powered medical assistant built with Flask, Pinecone, and LangChain. It provides instant responses to health-related questions, including symptoms analysis, treatment information, and general medical advice using the LLaMA-2 language model.
 
 ---
 
-## Features
-
-✅ **Quick Answers**: Type your question, and it responds in seconds  
-✅ **Medical Knowledge**: The bot can give you advice, help with symptoms, or provide medical information  
-✅ **Easy Setup**: Get the bot up and running in just a few steps  
-
----
-
-## Requirements
-
-- Python (version 3.8+)  
-- Pip (to install packages)  
-- A [Pinecone account](https://www.pinecone.io/) (to store and manage the data)  
-- Python packages: `Flask`, `LangChain`, `Pinecone`, and `HuggingFace`  
+## **Folder Structure**
+- `app.py` contains the Flask backend and main application logic
+- `templates/` holds the frontend HTML files
+- `static/` includes CSS/JS for the web interface
 
 ---
 
-## How to Set It Up
+## **Features**
+- **AI-Powered Medical Assistance**:
+  - Symptom analysis and possible conditions
+  - Treatment information and medication details
+  - General health advice
+  - Emergency guidance (basic first aid)
+- **Dual Interface**:
+  - Web-based GUI (Flask)
+  - API endpoint for programmatic access
+- **Smart Features**:
+  - Context-aware follow-up questions
+  - Medical disclaimer system
+  - Response confidence indicators
 
-### 1. Clone the Repo
-```bash
-git clone https://github.com/your-username/Medical-chatbot.git
-cd Medical-chatbot
+---
+
+## **Dependencies**
+### **System Requirements**
+- Python 3.8+
+- Pinecone account (for vector database)
+- Minimum 4GB RAM
+
+### **Core Libraries**
+- Flask (web framework)
+- LangChain (LLM orchestration)
+- Pinecone (vector database)
+- HuggingFace Transformers (LLaMA-2 model)
+- Sentence-Transformers (embeddings)
+
+---
+
+## **Installation**
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/Medical-chatbot.git
+   cd Medical-chatbot
